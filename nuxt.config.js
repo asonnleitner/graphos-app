@@ -50,6 +50,7 @@ export default {
    ** Nuxt.js modules
    */
   apollo: {
+    tokenName: "apollo-token",
     clientConfigs: {
       default: {
         httpEndpoint: process.env.GRAPHQL_ENDPOINT
